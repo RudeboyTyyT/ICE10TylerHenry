@@ -32,7 +32,7 @@ public class Main {
         System.out.println("You Entered " + point2.toString() + " for the second point" );
         System.out.println("--------------------------------------------------------------\n" );
 
-        Vector2D randomVector2D = RandomVector.createVector2D(point1, point2);
+        Vector2D randomVector2D = RandomVector.Instance().createVector2D(point1, point2);
 
         System.out.println("\n--------------------------------------------------------------" );
         System.out.println("The random vector is " + randomVector2D.toString());
